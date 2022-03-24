@@ -6,8 +6,12 @@
 // - ผลลัพธ์สุดท้ายของ a คือเท่าไหร่
 
 let a = 0;
+console.log(a);
 a++;
-
-console.log((a = a + 3));
-console.log(a * 17);
-console.log(a % 7);
+console.log(a);
+a += 3;
+console.log(a);
+a *= 17;
+console.log(a);
+a %= 7;
+console.log(a);
